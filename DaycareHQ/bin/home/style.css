@@ -1,0 +1,90 @@
+
+
+.table-view .column-header{
+    -fx-background-color: #3bd3ff;
+    -fx-padding: 20px;
+     -fx-text-background-color: #fff;
+}
+
+.new_employee_input{
+	 -fx-border-color : #3bd3ff;
+	 -fx-border-width : 2px;
+	 -fx-border-radius : 5px;
+	 
+	 -fx-background-color: #fff;
+	 -fx-prompt-text-fill: #000;
+}
+
+ .new_employee_combo{
+ 	-fx-border-color : #3bd3ff;
+	 -fx-border-width : 2px;
+	 -fx-border-radius : 5px;
+	 
+	 -fx-background-color: #fff;
+ }
+ .titled-pane {
+    -fx-padding: 0 0 0.5em 0;
+}
+.dashboardTable .column-header{
+    -fx-background-color:  #3bd3ff;
+    -fx-padding: 20px;
+     -fx-text-background-color: #fff;
+}
+
+.accordian {
+  -fx-accordion-header-background: #3bd3ff;
+  -fx-accordion-header-text-fill: black;
+  -fx-accordion-header-padding: 10px;
+  -fx-accordion-header-font-size: 16px;
+}
+
+/* Styling for the accordion content */
+.accordian > .titled-pane > .content {
+  -fx-padding: 10px;
+  -fx-background-color: #f2f2f2;
+  -fx-border-radius: 5px;
+  -fx-background-radius: 5px;
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);
+  -fx-transition: all 0.5s ease;
+  -fx-max-height: 0;
+  -fx-opacity: 0;
+}
+
+/* Styling for the accordion header when it's expanded */
+.accordian > .titled-pane > .header {
+  -fx-background-color: #3bd3ff;
+  -fx-border-color: #f2f2f2;
+  -fx-border-radius: 5px;
+  -fx-background-radius: 5px;
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);
+  -fx-transition: all 0.5s ease;
+}
+
+/* Styling for the accordion header when it's collapsed */
+.accordian > .titled-pane > .header:hover {
+  -fx-background-color: #1fa7d1;
+}
+
+/* Styling for the arrow icon */
+.accordian > .titled-pane > .header > .arrow-button > .arrow {
+  -fx-background-color: transparent;
+  -fx-background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png");
+  -fx-background-position: center;
+  -fx-background-size: 20px 20px;
+  -fx-background-repeat: no-repeat;
+}
+
+/* Styling for the arrow icon when the accordion is expanded */
+.accordian > .titled-pane:expanded > .header > .arrow-button > .arrow {
+  -fx-rotate: 180;
+}
+
+/* Animation for expanding and collapsing the accordion */
+.accordian > .titled-pane:expanded > .content {
+  -fx-max-height: 200px;
+  -fx-opacity: 1;
+}
+
+.accordian .titled-pane .content .label {
+    -fx-text-fill: red;
+}

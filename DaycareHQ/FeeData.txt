@@ -1,0 +1,4 @@
+1,Olivia,1000,2.0,Toddler
+2,Ethan,1500,5.0,Pre-school
+3,Sofia,500,1.0,Infant
+4,Ava,1500,3.0,Toddler

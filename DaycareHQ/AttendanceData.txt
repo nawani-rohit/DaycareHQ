@@ -1,0 +1,5 @@
+4,Ava,2023-04-19 14:49:03,CheckedIn
+4,Ava,2023-04-19 23:28:32,CheckedIn
+2,Ethan,2023-04-21 19:32:33,On-Leave
+3,Sofia,2023-04-21 19:32:48,Checked-In
+2,Ethan,2023-04-22 21:15:22,Checked-In
